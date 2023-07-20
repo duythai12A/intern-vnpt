@@ -1,13 +1,14 @@
 package com.example.internvnpt.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.*;
+
 import lombok.Data;
 import lombok.Getter;
 import org.springframework.data.annotation.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import javax.persistence.Column;
 import java.sql.Timestamp;
 import java.time.Instant;
 

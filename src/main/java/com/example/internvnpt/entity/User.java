@@ -1,9 +1,11 @@
 package com.example.internvnpt.entity;
 
-import jakarta.persistence.*;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 
 @Table(name = "user")
 @Entity
