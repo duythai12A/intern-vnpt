@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class InternVnptApplication {
 
     public static void main(String[] args) {
+        Float t = 5.1f;
+        System.out.println();
         SpringApplication.run(InternVnptApplication.class, args);
     }
 
