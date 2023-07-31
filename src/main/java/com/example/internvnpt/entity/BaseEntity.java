@@ -25,11 +25,11 @@ public class BaseEntity {
     private String createdBy;
 
     @Column(name = "created_at")
-    private Timestamp createdDate;
+    private Timestamp createdAt;
 
     @Column(name = "updated_by")
     private String updatedBy;
 
     @Column(name = "updated_at")
-    private String updated;
+    private Timestamp updateAt;
 }

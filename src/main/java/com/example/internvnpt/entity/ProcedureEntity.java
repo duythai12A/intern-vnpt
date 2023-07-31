@@ -11,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "procedure")
+@Table(name = "[procedure]")
 public class ProcedureEntity extends BaseEntity{
     @Id
     @Column(name = "id", nullable = false)
@@ -19,7 +19,7 @@ public class ProcedureEntity extends BaseEntity{
     private Long id;
     @Column(name = "step")
     private Long step;
-    @Column(name = "action")
+    @Column(name = "[action]")
     private String action;
     @ManyToOne
     @JoinColumn(name = "examination_package_id")
